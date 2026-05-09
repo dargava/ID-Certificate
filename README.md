@@ -1,11 +1,5 @@
 # idcert
 
-> Identify and inspect X.509 certificates and private keys from the command line.
-
-`idcert` is a small, dependency-free Python CLI tool that uses `openssl` under the hood to classify certificate files (`.crt`, `.pem`, `.cer`) and key files (`.key`) without needing to remember any openssl flags. It handles single certificates, private keys, and multi-certificate chain files — and validates chain ordering automatically.
-
----
-
 ## Features
 
 - 🔐 Classifies certificates as **Root CA**, **Intermediate CA**, **Self-signed**, or **End-entity**
